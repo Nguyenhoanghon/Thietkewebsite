@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Câu 1</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    body {
+      color: #000;
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .clearfix {
+      zoom: 1;
+    }
+
+    .clearfix:after {
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      line-height: 0;
+      visibility: hidden;
+    }
+
+    /* Layout */
+    .news {
+      margin: 30px auto;
+      width: 1140px;
+    }
+
+    .news .image-news {
+      float: left;
+      width: 500px;
+      margin-top: 20px;
+    }
+
+    .news .info-news {
+      float: right;
+      width: 640px;
+    }
+
+    .news .info-news h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 10px 0 12px;
+      text-align: justify;
+      /* text-transform: uppercase; */
+    }
+
+    .news .info-news .inner {
+      margin-bottom: 18px;
+    }
+
+    .news .info-news p {
+      margin-bottom: 30px;
+    }
+
+    .news .info-news .detail a {
+      border: 2px solid #333;
+      border-radius: 4px;
+      color: #333;
+      display: inline-block;
+      padding: 5px 20px 1px;
+      min-width: 70px;
+      text-align: justify;
+      text-decoration: none;
+      transition: 0.3s all;
+    }
+
+    .news .info-news .detail a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="news clearfix">
+    <div class="image-news">
+      <img src="images/cau1.png" alt="no image">
+    </div>
+    <div class="info-news">
+      <h2>Hội nghị “Chia sẻ kiến thức thực tiễn - công nghệ tiên tiến và Nhu cầu tuyển dụng Thực tập sinh khối ngành
+        Thủy sản”
+      </h2>
+      <i class="fa fa-calendar"></i> <span>02/02/2024</span>
+
+      <div class="inner">
+        <p>Sáng ngày 01/02/2024, tại Hội trường Trung tâm Thông tin – Thư viện, Khoa Nông nghiệp Trường Đại học Bạc Liêu
+          kết hợp
+          với Công ty cổ phần Việt – Úc Nhà Mát thuộc Tập đoàn Việt Úc (Việt – Úc Nhà Mát) tổ chức Hội nghị “Chia sẻ
+          kiến thức
+          thực tiễn - công nghệ tiên tiến và Nhu cầu tuyển dụng Thực tập sinh khối ngành Thủy sản” cho toàn thể giảng
+          viên Bộ
+          môn
+          Thuỷ sản và sinh viên khối ngành Nuôi trồng thủy sản khoá 14.</p>
+      </div>
+      <p class="detail"><a href="./">Chi tiết</a></p>
+    </div>
+  </section>
+</body>
+
+</html>

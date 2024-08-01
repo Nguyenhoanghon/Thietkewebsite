@@ -3,8 +3,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .nav {
+            background-color: aquamarine;
+        }
+        .nav li{
+           /*  display: inline-block; */
+            height: 40px;
+            border: 2px solid red;
+            list-style-type: none;
+            margin: 5px;
+            padding: 5px;
+
+        }
+        .nav a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <div><ul><li><a href="./">Home</a></li></ul></div>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="./">Home</a>
+            </li>
+            <li>
+                <a href="#">Giới thiệu</a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>

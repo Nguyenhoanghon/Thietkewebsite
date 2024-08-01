@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+
+        .clearfix:after {
+            clear: both;
+            content: ".";
+            display: block;
+            height: 0;
+            line-height: 0;
+            visibility: hidden;
+        }
+
+        .nav {
+            margin: 0px;
+            background-color: #adb8c2;
+            border: 2px solid red;
+        }
+
+        .nav img {
+            background-image: url(logo.png);
+            display: inline;
+            float: left;
+            margin-left: 30px;
+
+        }
+
+        .nav ul {
+            margin: 10px;
+            background-color: yellow;
+            list-style-type: none;
+        }
+
+        .nav ul li {
+            float: right;
+            margin: 3px;
+            /* background-color: red; */
+            width: auto;
+        }
+
+        .nav ul li a {
+            display: inline-block;
+            padding: 8px 16px;
+            width: auto;
+            box-sizing: border-box;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+
+        .nav ul li a:hover {
+            background-color: #223342;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clearfix nav">
+        <img src="logo.png" alt="">
+        <ul>
+            <li><a href="./">Giới thiệu</a></li>
+            <li><a href="">Quản trị</a></li>
+            <li><a href="">Đào tạo</a></li>
+            <li><a href="">Tuyển sinh</a></li>
+            <li><a href="">Đảm bảo chất lượng</a></li>
+            <li><a href="">NCKH-HTQT</a></li>
+            <li><a href="">Sinh viên</a></li>
+            <li><a href="">Các đơn vị</a></li>
+            <li><a href="">Quản lý văn bản</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

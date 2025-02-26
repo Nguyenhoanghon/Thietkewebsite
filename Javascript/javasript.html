@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tự học Javascript</title>
+    <script type="text/Javascript">
+        document.write("Javascript in header");
+    </script>
+</head>
+
+<body>
+    <script>
+        document.write("Tự học Javascript");
+    </script>
+    <script src="myscript.js"></script>
+    <h1>Toán tử giống ngôn ngữ C</h1>
+    <ol>
+        <li>Toán tử số học</li>
+        <li>Toán tử gán</li>
+        <li>Toán tử so sánh</li>
+        <li>Toán tử logic && || !</li>
+        <li>Toán tử điều kiện</li>
+        <script>
+            var x = (3 > 5) ? 10 : 20;
+            document.write("giá trị x", x);
+        </script>
+    </ol>
+    <h1>Cấu trúc điều khiển</h1>
+    <h2>Lệnh if</h2>
+    <script>
+        var diem = 10;
+        if (diem >= 8.5) {
+            xeploai = "Giỏi";
+        }
+        else if (diem >= 7) {
+            xeploai = "Khá";
+        }
+        else if (diem >= 5) {
+            xeploai = "TB";
+        }
+        else {
+            xeploai = "Yếu";
+        }
+        document.write("xếp loại ", xeploai);
+    </script>
+    <h2>Cấu trúc switch case</h2>
+    <script>
+        var nam = 2;
+        switch (nam) {
+            case 1: document.write("Học đại cương"); break;
+            case 2: document.write("Học cơ sở ngành"); break;
+            case 3: document.write("Học chuyên ngành"); break;
+            case 4: document.write("Làm khóa luận"); break;
+            default: document.write("Ra trường");
+        }
+    </script>
+    <h2>Cấu trúc for</h2>
+    <script>
+        for (i = 1; i <= 10; i++) {
+            document.write("Hello");
+        }
+    </script>
+    <h2>cấu trúc do ... while</h2>
+    <script>
+        x = 10;
+        do {
+            document.write(x);
+            x--;
+        } while (x > 0)
+    </script>
+    <h1>4.4 Khai báo sử dụng biến</h1>
+    <h2>Biến trong javascript tự nhận kiểu tương ứng với giá trị được gán</h2>
+    <script>
+        x = 10;
+        var y = "Tự học javascript";
+    </script>
+    <h1>4.5 Hàm</h1>
+    <script>
+        function function_name(str) {
+            document.write("goi hàm :", str);
+            //alert(str);
+        }
+        function_name("Xin chào lời gọi hàm");
+    </script>
+    <h1>4.6 Mảng trong javascript</h1>
+    <p>Mảng được đánh dấu chỉ mục từ 0 ... n-1</p>
+    <h2>Khai báo</h2>
+    <script>
+        var arr = [2, 'số nguyên', 3.5, 'số thực', 'Chuỗi'];
+        document.write(arr);
+        document.write("Phần tử đầu tiên ", arr[0]);
+    </script>
+    <h2>4.6.3 truy xuất mảng tương tự như ngôn ngữ C</h2>
+    <h2>4.6.4 Các hàm xử lý mảng</h2>
+    <p>Cú pháp chung Tên_Biến_Mang.Function_name</p>
+    <h3>Hàm length</h3>
+    <script>
+        var arr = [1, 2, 3, 4, 5, 6, 7];
+        document.write("Số phần tử mảng : ", arr.length);
+    </script>
+    <h3>Hàm join('Character')</h3>
+    <script>
+        var arr_number = [1, 2, 3, 4, 5, 6, 7];
+        document.write("Các phần tử mảng chưa gọi hàm join", arr_number);
+        document.write("<br> Gọi hàm join", arr_number.join('-'));
+        document.write("<br> Gọi hàm valueOf", arr_number.valueOf());
+    </script>
+    <h3>Hàm push </h3>
+    <script>
+        var arr_number = [1, 2, 3, 4, 5, 6, 7];
+        arr_number.push(2025)
+        document.write("Các phần tử mảng chưa gọi hàm push", arr_number);
+    </script>
+</body>
+
+</html>
